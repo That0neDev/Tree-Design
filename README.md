@@ -1,1 +1,1 @@
-Implemention of a Tree in C#
+Implemention of a simple tree structure in C#
