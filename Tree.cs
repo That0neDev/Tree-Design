@@ -4,7 +4,6 @@ namespace Trees;
 
 public class Tree<T>(){
     public TreeNode<T> Root = new();
-
     public TreeNode<T>? GetNode(TreeNode<T> rootNode, T target){
         
         if(rootNode == null)
@@ -25,15 +24,12 @@ public class Tree<T>(){
 
         return null;
     }
-
-    public void AddChildToNode(TreeNode<T> Node, T Data){
-        Node.AddChild(Data);
+    public void AddChildToNode(TreeNode<T> Node, T data){
+        Node.AddChild(data);
     }
-
-    public void RemoveChildFromNode(TreeNode<T> Node){
-        Node.RemoveChild(Node);
+    public void RemoveChildFromNode(TreeNode<T> node){
+        node.RemoveChild(node);
     }
-
     public void Traverse(TreeNode<T> root, Action<TreeNode<T>> visitAction)
     {
         if(root == null)
