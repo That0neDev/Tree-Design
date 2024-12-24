@@ -1,0 +1,15 @@
+.vscode/
+
+# Build results
+bin/
+obj/
+
+# User-specific settings
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+
+# .NET Core specific files
+project.lock.json
+project.fragment.lock.json
+artifacts/
